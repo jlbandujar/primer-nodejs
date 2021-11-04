@@ -52,3 +52,16 @@ getEmpleado(5, (err,empleado)=> {
     console.log('Empleado existe!');
     console.log(empleado);
 })
+
+getSalario(1, ( err, salario)=> { 
+    if ( err ) {
+        console.log('Error al obtener salario');
+        return console.log(err)
+    }
+    console.log('Tiene salario');
+    console.log(salario.salario);
+
+})
+
+
+
