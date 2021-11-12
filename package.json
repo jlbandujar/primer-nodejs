@@ -10,10 +10,18 @@
     "type": "git",
     "url": "git+https://github.com/jlbandujar/node.git"
   },
-  "author": "",
+  "author": "José Luis Benito",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jlbandujar/node/issues"
   },
-  "homepage": "https://github.com/jlbandujar/node#readme"
+  "homepage": "https://github.com/jlbandujar/node#readme",
+  "keywords": [
+    "calcula",
+    "tablas"
+  ],
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.2.1"
+  }
 }
